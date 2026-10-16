@@ -13,6 +13,7 @@ MCP + WorkBuddy 智能点餐规划助手 ｜ 麦当劳程序员节创意开发�
 📦 安装方法
 ① MCP 连接器配置
 将 mcp-config.example.json 复制为 mcp-config.json，把环境变量占位符 ${MCP_TOKEN} 替换为你自己的麦当劳 MCP Token（请勿把真实 Token 提交到仓库）：
+```json
 {
   "mcpServers": {
     "mcd-mcp": {
@@ -22,6 +23,7 @@ MCP + WorkBuddy 智能点餐规划助手 ｜ 麦当劳程序员节创意开发�
     }
   }
 }
+```
 ② Skill 安装
 把本项目的 SKILL.md 放入 WorkBuddy 技能目录：
 ~/.workbuddy/skills/maimai-youxuan/SKILL.md
